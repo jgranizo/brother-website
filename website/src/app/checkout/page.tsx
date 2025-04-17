@@ -1,5 +1,4 @@
-/**'use client'
-import {useCart} from '../context/CartContext'
+'use client'
 import Image from "next/image"
 export default function CheckoutPage(){
     return (
@@ -12,4 +11,3 @@ export default function CheckoutPage(){
     
 )
 }
-*/
