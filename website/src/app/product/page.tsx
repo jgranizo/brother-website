@@ -13,6 +13,7 @@ export default function Product() {
         height={500}
         width={300}
         className="rounded-lg "
+        unoptimized
       />
 
       <p className="text-lg text-gray-700 max-w-md text-center">

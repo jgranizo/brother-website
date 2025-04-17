@@ -4,7 +4,7 @@ export default function CheckoutPage(){
     return (
     
     <div>
-        <Image src="/r8v2.jfif" height={500} width={400} alt="silver Car">
+        <Image src="/r8v2.jfif" height={500} width={400} alt="silver Car" unoptimized>
 
         </Image>
     </div>
