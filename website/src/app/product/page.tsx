@@ -4,14 +4,7 @@ import { useState } from "react"
 
 export default function Product() {
   const [add, setAdd] = useState(true);
-  const [cartText,setCartText] = useState("Add To Cart");
-
-  function buttonChange(){
-    add?(setAdd(false),
-    setCartText("Remove From Cart"))
-      :setAdd(true),
-        setCartText("Add To Cart")
-  }
+ 
   return (
     <div>
     <div className="w-full max-w-5xl mx-auto p-4 ">
