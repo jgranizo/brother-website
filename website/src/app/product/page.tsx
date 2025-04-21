@@ -11,8 +11,8 @@ export default function Product() {
   <div className="flex flex-row  items-center justify-center gap-8 lg:pl-40  pt-20 md:pl-20 " >
     <div>
     <Image
-      src="/r8v2.jfif"
-      alt="Silver Audi R8"
+      src="/bakingbox.png"
+      alt="Baking Box"
       height={500}
       width={500}
       className="rounded-lg mb-0"

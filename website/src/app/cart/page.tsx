@@ -206,9 +206,11 @@ export default function CheckoutPage() {
             {/* Cart Summary */}
             <div className="w-full md:w-1/3 bg-gray-50 p-6 rounded-lg shadow self-start flex flex-col items-center justify-start">
               <h1 className="font-bold text-lg mb-2">Cart</h1>
-              <div className="w-20 h-20 mb-4 border rounded-lg bg-white flex items-center justify-center overflow-hidden">
-                <Image src="/r8v2.jfif" alt="Cart item" width={80} height={80} className="object-cover" unoptimized />
-              </div>
+              <div className="w-[200px] h-[130px] mb-4 border rounded-lg bg-white flex items-center justify-center overflow-hidden">
+   {/* Image can now render at its intended size within the container */}
+   <Image src="/bakingbox.png" alt="Cart item" width={200} height={200} className ="object-contain" /* Or remove object-cover/contain if aspect ratio matches */ unoptimized />
+</div>
+
               <p className="text-gray-700 mb-2">
                 Subtotal: <span className="text-blue-800 font-semibold">$39.99</span>
               </p>
