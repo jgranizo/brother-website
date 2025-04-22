@@ -18,13 +18,13 @@ export default function Product() {
       className="rounded-lg mb-0"
       unoptimized
     />
-    <p className="text-center  mt-6 ">Baking Box for Beginners, 2 recipes, Wax Paper, 1 Baking Tool, Ingredientes Included</p>
+    <p className="text-center  mt-6 text-xl ">Baking Box for Beginners, 2 recipes, Wax Paper, 1 Baking Tool, Ingredientes Included</p>
     </div>
 <div className="flex flex-col  items-start justify-between w-full  gap-1 px-4 pl-45  py-8">
-        <p className="font-bold text-lg text-gray-700 text-center md:text-left">
+        <p className="font-bold text-xl text-gray-700 text-center md:text-left">
         Monthly Subscription
       </p>
-      <p>Starting: $39.99</p>
+      <p className="text-xl">Starting: $39.99</p>
       <p className="text-xs">Free Shipping</p>
 
       
